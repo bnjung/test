@@ -22,12 +22,14 @@ namespace TelerikMvcApp1.Controllers
             return View();
         }
 
+        //tue sua ngay 23/8
+        [ActionName("lienhe")]
         [HttpPost]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
-            return View();
+            return View("lienhe");
         }
     }
 }
